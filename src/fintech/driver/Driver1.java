@@ -33,7 +33,7 @@ public class Driver1 {
                     break;
                 case "create-transaction":
                 if (segments.length == 5) {
-                    create.transaction(new Transaction (Integer.parseInt(segments[1],segments[2]),segments[3]), Double.parseDouble(segments[4]), segments[5], segments[6]);
+                    create.transaction(new Transaction(Integer.parseInt(segments[1]), Integer.parseInt(segments[2]), segments[3]), Double.parseDouble(segments[4]), segments[5], segments[6]);
                 }
                 break;
                 case "show-account":
